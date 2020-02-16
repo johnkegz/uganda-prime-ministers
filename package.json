@@ -1,0 +1,19 @@
+{
+  "name": "uganda-prime-ministers",
+  "version": "1.0.0",
+  "description": "This package enables you to get Uganda prime ministers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnkegz/uganda-prime-ministers.git"
+  },
+  "author": "John Kalyango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnkegz/uganda-prime-ministers/issues"
+  },
+  "homepage": "https://github.com/johnkegz/uganda-prime-ministers#readme"
+}
