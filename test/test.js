@@ -7,9 +7,10 @@ describe("Testing for get prime ministers functionality", function() {
     const f = primeMinisters.getPrimeMinisters();
     chai.assert.typeOf(primeMinisters.getPrimeMinisters(), "Array");
   });
+  
   it(`user should get prime minister's bithDay`, function() {
     assert.equal(
-      primeMinisters.getPrimeMinisterBirthDay("Milton Obote").birthDay,
+      primeMinisters.getPrimeMinister("Milton Obote").birthDay,
       "28 December 1925"
     );
   });
