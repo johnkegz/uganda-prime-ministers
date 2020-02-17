@@ -1,6 +1,6 @@
 {
   "name": "uganda-prime-ministers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package enables you to get Uganda prime ministers",
   "main": "index.js",
   "scripts": {
