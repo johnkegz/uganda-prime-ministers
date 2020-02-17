@@ -4,8 +4,13 @@
 ```
 npm i uganda-prime-ministers
 ```
+es6
 ```
 import primeMinisters from 'uganda-prime-ministers'
+```
+es5
+```
+const primeMinisters = require('uganda-prime-ministers')
 ```
 To get all prime ministers
 ```
