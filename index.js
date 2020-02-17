@@ -12,7 +12,7 @@ function getPrimeMinisters() {
   }
 }
 
-function getPrimeMinisterBirthDay(name) {
+function getPrimeMinister(name) {
   try {
     if (name === "" || name === undefined) return `Enter prime minister's name`;
     const minister = primeMinisters.primeMinisters.filter(
@@ -39,5 +39,5 @@ function getPrimeMinisterBirthDay(name) {
 
 module.exports = {
   getPrimeMinisters,
-  getPrimeMinisterBirthDay
+  getPrimeMinister
 };
